@@ -14,6 +14,8 @@
 		F59A64092A0241A20092A0B2 /* SwiftUI_Landmarks_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A64082A0241A20092A0B2 /* SwiftUI_Landmarks_TutorialTests.swift */; };
 		F59A64132A0241A20092A0B2 /* SwiftUI_Landmarks_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A64122A0241A20092A0B2 /* SwiftUI_Landmarks_TutorialUITests.swift */; };
 		F59A64152A0241A20092A0B2 /* SwiftUI_Landmarks_TutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A64142A0241A20092A0B2 /* SwiftUI_Landmarks_TutorialUITestsLaunchTests.swift */; };
+		F59A64242A02467F0092A0B2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A64232A02467F0092A0B2 /* MapView.swift */; };
+		F59A64262A0248A60092A0B2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A64252A0248A60092A0B2 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F59A640E2A0241A20092A0B2 /* SwiftUI_Landmarks_TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_Landmarks_TutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59A64122A0241A20092A0B2 /* SwiftUI_Landmarks_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Landmarks_TutorialUITests.swift; sourceTree = "<group>"; };
 		F59A64142A0241A20092A0B2 /* SwiftUI_Landmarks_TutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Landmarks_TutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F59A64232A02467F0092A0B2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F59A64252A0248A60092A0B2 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				F59A63F72A0241A10092A0B2 /* SwiftUI_Landmarks_TutorialApp.swift */,
+				F59A64252A0248A60092A0B2 /* CircleImage.swift */,
 				F59A63F92A0241A10092A0B2 /* ContentView.swift */,
 				F59A63FB2A0241A20092A0B2 /* Assets.xcassets */,
+				F59A64232A02467F0092A0B2 /* MapView.swift */,
 				F59A63FD2A0241A20092A0B2 /* Preview Content */,
 			);
 			path = SwiftUI_Landmarks_Tutorial;
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F59A63FA2A0241A10092A0B2 /* ContentView.swift in Sources */,
+				F59A64262A0248A60092A0B2 /* CircleImage.swift in Sources */,
+				F59A64242A02467F0092A0B2 /* MapView.swift in Sources */,
 				F59A63F82A0241A10092A0B2 /* SwiftUI_Landmarks_TutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
